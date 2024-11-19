@@ -1,0 +1,44 @@
+/* Newsletter.css */
+
+.subscribe-section {
+  text-align: center;
+  padding: 30px;
+}
+
+.subscribe-section h3 {
+  font-size: 24px; /* Larger heading */
+  margin-bottom: 20px;
+}
+
+.subscribe-section form {
+  display: inline-block; /* Center the form */
+  width: 100%;
+  max-width: 500px; /* Increased maximum width */
+}
+
+input[type="email"] {
+  width: 100%; /* Fill the available width */
+  padding: 15px; /* Larger padding */
+  font-size: 18px; /* Larger font size */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button {
+  width: 100%; /* Make the button the same width as the input */
+  padding: 15px; /* Larger padding */
+  font-size: 18px; /* Larger font size */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
